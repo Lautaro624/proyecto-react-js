@@ -5,9 +5,9 @@ import ItemList from './ItemList';
 import { useParams } from 'react-router-dom';
 
 const albums = [
-    { id: 1, image: "../images/gibson-lespaul-bonamassa.png", category:"prog", title: "Gibson Les Paul Joe Bonamassa" },
-    { id: 2, image: "../images/epiphone-sg-standard.png", category:"prog", title: "Epiphone SG Standard 60s" },
-    { id: 3, image: "../images/epiphone-explorer.png", category: "rock", title: "Epiphone Explorer" },
+    { id: 1, price: 900, image: "../images/gibson-lespaul-bonamassa.png", category:"prog", title: "Gibson Les Paul Joe Bonamassa" },
+    { id: 2, price: 750, image: "../images/epiphone-sg-standard.png", category:"prog", title: "Epiphone SG Standard 60s" },
+    { id: 3, price:650, image: "../images/epiphone-explorer.png", category: "rock", title: "Epiphone Explorer" },
     { id: 4, image: "../images/flying-v.png", category: "rock", title: "Flying V Prophecy" },
     
 ];

@@ -3,18 +3,21 @@ import ItemDetail from './ItemDetail';
 import { useParams } from 'react-router-dom';
 
 const albums = [
-    {   id: 1, 
+    {   id: 1,
+        price: 900, 
         image: "../images/gibson-lespaul-bonamassa.png", 
         category:"prog", title: "Joe Bonamassa lazzarus 1959 Les Paul Standard", 
         description: "Cuando la leyenda de la guitarra de blues-rock Joe Bonamassa encontró Lazarus, una rara Gibson Les Paul™ Standard de 1959, estaba en malas condiciones y había sido pintada de rojo. Al igual que el Lázaro bíblico, la guitarra original de Joe volvió a la vida. Una vez que se restauró, se reveló su parte superior asombrosamente tallada. Ahora Joe Bonamassa vuelve a colaborar con Epiphone, esta vez con una guitarra inspirada en su Gibson™ Lazarus 1959 Les Paul Standard. Con un mástil de caoba de una pieza, un cuerpo de caoba con tapa de arce, rematado con una chapa de arce flameado AAAA de grano ancho, está equipado con pastillas Gibson BurstBucker™ y cableado estilo años 50 con potenciómetros CTS® y condensadores Mallory™. Viene en un estuche de estilo vintage con gráficos de Bonamassa. También se incluye un Certificado de Autenticidad."
     },
     {   id: 2, 
+        price: 750,
         image: "../images/epiphone-sg-standard.png", 
         category:"prog", 
         title: "Epiphone SG Standard 60s Maestro Vibrola - Cereza Vintage", 
         description: "El Epiphone SG™ Standard 60s Maestro™ Vibrola de la nueva colección Inspired by Gibson™ recrea el SG original de 1961 con un Maestro Vibrola de estilo años 60 de nuevo diseño. Con un cuerpo de caoba clásico en un acabado Vintage Cherry y potenciado por humbuckers ProBucker™ con potenciómetros CTS®. (Anteriormente llamado SG Standard '61 Maestro Vibrola)"
     },
-    {   id: 3, 
+    {   id: 3,
+        price: 650, 
         image: "../images/epiphone-explorer.png", 
         category: "rock", 
         title: "Epiphone Explorer", 
